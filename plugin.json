@@ -1,10 +1,10 @@
 {
-    "name": "My plugin",
-    "version": "0.0.1",
-    "description": "Description of my_plugin.",
-    "author_name": "Me",
-    "author_url": "https://mywebsite.me",
+    "name": "Inference Time Tracer",
+    "version": "0.1.0",
+    "description": "Appending to the answer message the time needed to generate it",
+    "author_name": "Alessandro Spallina",
+    "author_url": "https://www.linkedin.com/in/alessandro-spallina",
     "plugin_url": "https://github.com/my_name/my_plugin",
-    "tags": "cat, template, example",
+    "tags": "time, tracker",
     "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
 }
