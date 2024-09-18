@@ -4,7 +4,7 @@
     "description": "Appending to the answer message the time needed to generate it",
     "author_name": "Alessandro Spallina",
     "author_url": "https://www.linkedin.com/in/alessandro-spallina",
-    "plugin_url": "https://github.com/my_name/my_plugin",
+    "plugin_url": "https://github.com/GPTim/time-tracer",
     "tags": "time, tracker",
     "thumb": "https://raw.githubusercontent.com/my_repo_path/my_plugin.png"
 }
