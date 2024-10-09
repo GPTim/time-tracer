@@ -1,5 +1,5 @@
 {
-    "name": "Inference Time Tracer",
+    "name": "Inference Time and Token consumption Tracer",
     "version": "0.1.0",
     "description": "Appending to the answer message the time needed to generate it",
     "author_name": "Alessandro Spallina",
