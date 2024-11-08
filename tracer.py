@@ -45,7 +45,7 @@ def before_cat_sends_message(message, cat):
     price_per_input_token = settings['input_token_price_per_milion']/1e6
     price_per_output_token = settings['output_token_price_per_milion']/1e6
 
-    message.content += f'\n---\n✨ Generated in {time_string} with `{llm_name}` | input {(sum(input_tokens) / 1000):.2f}K tok ({settings["currency_string"]} {sum(input_tokens) * price_per_input_token}) output {(sum(output_tokens) / 1000):.2f}K tok ({settings["currency_string"]} {sum(output_tokens) * price_per_output_token}) ✨'
+    message.content += f'\n---\n✨ Generated in {time_string} with `{llm_name}` | input {(sum(input_tokens) / 1000):.2f}K tok ({settings["currency_string"]} {(sum(input_tokens) * price_per_input_token):.3f}) output {(sum(output_tokens) / 1000):.2f}K tok ({settings["currency_string"]} {(sum(output_tokens) * price_per_output_token):.3f}) ✨'
 
     return message
 
